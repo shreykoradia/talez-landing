@@ -2,7 +2,7 @@ import React from "react";
 
 function Discover() {
   return (
-    <section className="py-28 bg-background">
+    <section className="py-28 px-4 bg-background">
       <div className="flex flex-col gap-2 justify-center items-center w-full">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
