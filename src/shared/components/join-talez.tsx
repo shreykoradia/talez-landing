@@ -1,5 +1,5 @@
-import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 import React from "react";
+import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 
 function JoinTalez() {
   return (
