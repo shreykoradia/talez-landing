@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { ContainerScroll } from "../ui/container-scroll-animation";
+import talezImage from "../../../public/images/talez.png"
 
 export function Hero() {
   return (
@@ -19,11 +20,11 @@ export function Hero() {
         }
       >
         <Image
-          src={`/linear.webp`}
-          alt="hero"
+          src={talezImage}
+          alt="talez"
           height={720}
           width={1400}
-          className="mx-auto rounded-2xl object-cover h-full object-left-top"
+          className="mx-auto rounded-2xl object-cover h-full"
           draggable={false}
         />
       </ContainerScroll>
