@@ -14,8 +14,8 @@ function Discover() {
           </p>
         </div>
         <div className="flex gap-8 items-center justify-center text-xl text-white font-semibold tracking-tight text-left px-4 w-1/2">
-          <a href="#">Peerlist</a>
-          <a href="#">Twitter</a>
+          <a href="https://peerlist.io/shrey_">Peerlist</a>
+          <a href="https://x.com/hello_talez">Twitter</a>
         </div>
       </div>
     </section>
