@@ -2,7 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import { ContainerScroll } from "../ui/container-scroll-animation";
-import talezImage from "../../../public/images/talez.png"
+import talezImageMobile from "../../../public/images/brandbird.png"
+import talezImageDesktop from "../../../public/images/talez.png"
+
 
 export function Hero() {
   return (
@@ -20,11 +22,19 @@ export function Hero() {
         }
       >
         <Image
-          src={talezImage}
-          alt="talez"
+          src={talezImageDesktop}
+          alt="talez desktop"
           height={720}
           width={1400}
-          className="mx-auto rounded-2xl object-cover h-full"
+          className="rounded-2xl object-cover h-full hidden md:block"
+          draggable={false}
+        />
+        <Image
+          src={talezImageMobile}
+          alt="talez mobile"
+          height={720}
+          width={1400}
+          className="rounded-2xl object-cover h-full block md:hidden"
           draggable={false}
         />
       </ContainerScroll>
