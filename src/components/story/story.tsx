@@ -7,7 +7,7 @@ function Story() {
       <div className="flex flex-col gap-2 justify-center items-center w-full">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
-            A classic tale for why <Cover>Talez!</Cover>
+            A classic tale for why <Cover>Talez</Cover>....?
           </h2>
         </div>
         <div className="text-xl font-semibold tracking-tight text-center px-4 w-full md:w-1/2">
