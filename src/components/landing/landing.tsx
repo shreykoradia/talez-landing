@@ -4,6 +4,7 @@ import JoinTalez from "@/shared/components/join-talez";
 import { Hero } from "../hero/hero";
 import Story from "../story/story";
 import Discover from "../discover/discover";
+import Footer from "../footer/footer";
 
 function Landing() {
   return (
@@ -13,6 +14,7 @@ function Landing() {
       <Story />
       <JoinTalez />
       <Discover />
+      <Footer />
     </>
   );
 }

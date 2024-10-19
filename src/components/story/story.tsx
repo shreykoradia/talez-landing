@@ -6,7 +6,7 @@ function Story() {
     <section className="py-28 bg-background">
       <div className="flex flex-col gap-2 justify-center items-center w-full">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-extrabold tracking-tight text-white text-2xl md:text-4xl">
+          <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
             A classic tale for why <Cover>Talez!</Cover>
           </h2>
         </div>
