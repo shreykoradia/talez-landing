@@ -9,7 +9,7 @@ function JoinTalez() {
         as="button"
         className="bg-background text-primary flex items-center space-x-4"
       >
-        <a href="https://talez-flames.vercel.app/signup" className="font-semibold">
+        <a href="https://app.talez.xyz/signup" className="font-semibold">
           Join Talez
         </a>
       </HoverBorderGradient>
