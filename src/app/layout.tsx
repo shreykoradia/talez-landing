@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/header/header";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Talez",
-  description: "Brain for your app's",
+  description: "a brain for your apps",
 };
 
 export default function RootLayout({
@@ -14,6 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body>
         <Header />
         {children}
