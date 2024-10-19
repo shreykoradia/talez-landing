@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/header/header";
 import Head from "next/head";
+import Footer from "@/components/footer/footer";
 
 export const metadata: Metadata = {
   title: "Talez",
@@ -21,7 +22,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
