@@ -9,12 +9,13 @@ const HowToUse = () => {
               <span className="text-primary">Talez....</span>!
             </h2>
           </div>
-          <video controls width="80%">
-            <source
-              src="https://okdzjuoetzaksmtskopv.supabase.co/storage/v1/object/sign/Talez%20Demo/Talez%20-%2021%20October%202024.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJUYWxleiBEZW1vL1RhbGV6IC0gMjEgT2N0b2JlciAyMDI0Lm1wNCIsImlhdCI6MTczMTI0MTA2OCwiZXhwIjoxMDM3MTE1NDY2OH0.qxFJCDAyTCKtMPY5L_Y21qranu2PvDjAS0QWSG3phJY&t=2024-11-10T12%3A17%3A52.088Z"
-              type="video/mp4"
-            />
-          </video>
+          <iframe
+            className="md:max-w-screen-md  md:w-full h-80"
+            src="https://www.youtube.com/embed/kFKLDYhXsIo?si=1T-R7ndk5Cvx2oyq"
+            title="Developer app Talez featured on Proxlight"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>
         </div>
       </section>
     </>
